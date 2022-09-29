@@ -4,24 +4,30 @@
 <head>
     <title>My Profile</title>
     <style>
+        header div .header_section {
+            margin-right: 30px;
+             }
+        footer div .follow_me {
+         margin-right: 40px;
+        } 
+        footer div #follow_me_lable {
+         font-size: large;
+         font-weight: bold;
+         margin-right: 50px;
+        }
         
-        .abc {
-          
-            text-align: right;
-        }
-
-        #a {
-            text-decoration: none;
-        }
+        
 
         .xyz {
             text-decoration: none;
-            font-family: font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto', sans-serif;
             font-size: 15px;
             font-weight: bold;
         }
-    </style>
 
+        
+        
+    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,53 +35,43 @@
 </head>
 
 <body>
-
     <header>
-        <div>
-            <p class="abc"><strong> <i class="fa fa-user-o" aria-hidden="true"></i> &nbsp; Latika Bagal
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                    <i class="fa fa-phone-square" aria-hidden="true"></i> &nbsp;8605664020
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-                    <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;abc@gmail.com
-
-                </strong>
+        <div >
+            <span class="header_section"><i class="fa fa-user-o" aria-hidden="true"></i> Latika Bagal</span>
+            <span class="header_section"><i class="fa fa-phone-square" aria-hidden="true"></i> 8605664020</span>
+            <span class="header_section"><i class="fa fa-envelope" aria-hidden="true"></i> abc@gmail.com</span>
         </div>
-        </p>
-
     </header>
     <br>
-    <nav>
-        <a href="home.html" target="my_frame" width="600" height="300" class="xyz">HOME</a>&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="my_frame" class="xyz">TECH STACK </a>&nbsp;&nbsp;&nbsp;
-        <a href="personalDetails.html" target="my_frame" class="xyz">PERSONAL DETAILS </a>&nbsp;&nbsp;&nbsp;
-        <a href="collegeDetails.html " class="xyz"> COLLEGE DETAILS </a> &nbsp; &nbsp;&nbsp;
-        <a href="project.html" class="xyz"> PROJECT </a> &nbsp; &nbsp;&nbsp;
-        <a href="gallary.html" class="xyz"> GALLARY </a> &nbsp; &nbsp;&nbsp;&nbsp;
-        <a href="personal.html" class="xyz"> PERSONAL </a> &nbsp; &nbsp;&nbsp;&nbsp;
-        <a href="other" class="xyz"> OTHER </a> &nbsp; &nbsp;&nbsp;
+    <nav >
+        <span><a href="home.html" target="my_frame" width="600" height="300" >Home</a></span>
+        
+        <a href="techStack.html" target="my_frame" class="xyz"> Tech Stack </a>
+        <a href="personalDetails.html" target="my_frame" class="xyz"> Education </a>
+        <a href="hobbies.html" class="xyz"> Hobbies </a>
+        <a href="project.html" class="xyz"> Project </a>
+        <a href="gallary.html" class="xyz"> Gallary </a>
+        <a href="personal.html" class="xyz"> Personal </a>
+        <a href="other" class="xyz"> Other </a>
     </nav>
     <br>
     <iframe name="my_frame" src="home.html" width="900px" height="400px">
     </iframe>
     <hr>
     <footer>
-        <p>
-            <strong> Follow me on </strong> <br><br>
-            <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-official"
-                    aria-hidden="true"></i></a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="https://in.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square"
-                    aria-hidden="true"></i></a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-        </p>
-
+        <div>
+            <span id="follow_me_lable">Follow me on</span>
+            <span class="follow_me">
+                <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-official"aria-hidden="true"></i></a>
+            </span>
+            <span class="follow_me">
+                <a href="https://in.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square"aria-hidden="true"></i></a>
+            </span>
+            <span class="follow_me">
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"aria-hidden="true"></i></a>
+            </span>
+        </div>
     </footer>
-
-
 </body>
 
 </html>

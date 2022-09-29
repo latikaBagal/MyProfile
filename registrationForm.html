@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Registration Form </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <style>
+        label {
+            color: rgb(92, 195, 199);
+            font-size: large;
+            font-family: 'poppins' cursive;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"] {
+            color: rgb(165, 72, 72);
+            background: bisque;
+            width: 200px;
+            height: 20px;
+            text-transform: capitalize;
+            border-radius: 10px;
+        }
+
+        input[type="submit"],
+        input[type="Reset"] {
+            background: rgb(47, 148, 148);
+            color: rgb(148, 32, 32);
+            width: 100px;
+            border-radius: 20px;
+            height: 30px;
+        }
+
+        button {
+            background: rgb(47, 148, 148);
+            color: rgb(148, 32, 32);
+            width: 100px;
+            border-radius: 20px;
+            height: 30px;
+        }
+
+        textarea {
+            color: rgb(165, 72, 72);
+            background: bisque;
+            width: 250px;
+            height: 100px;
+            text-transform: capitalize;
+            border-radius: 20px;
+        }
+
+        input[type="file"] {
+            color: rgb(165, 72, 72);
+            background: bisque;
+            width: 200px;
+            height: 20px;
+            text-transform: capitalize;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2> Student Registration form </h2>
+    <form>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td><label> First Name </label></td>
+                    <td><input type="text" autofocus></td>
+                </tr>
+                <tr>
+                    <td><label> Last Name</label> </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label> Email Address</label></td>
+                    <td><input type="email" placeholder="abc@gmail.com" required></td>
+                </tr>
+                <tr>
+                    <td><label> Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label> Graduation </label> </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label> Date of Birth</label></td>
+                    <td><input type="date"></td>
+
+                </tr>
+                <tr>
+                    <td><label> Pass out Year</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label> Citizenship </label></td>
+                    <td><input type="text" value="India" disabled></td>
+                </tr>
+
+                <tr>
+                    <td><label> Profile Photo</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label> Upload All Mark Sheets</label></td>
+                    <td><input type="file" multiple> </td>
+                </tr>
+                <tr>
+                    <td><label> Select Graduation</label> </td>
+                    <td>
+                        <select>
+                            <option> B.E </option>
+                            <option> BCA </option>
+                            <option> MCA </option>
+                            <option> BCS </option>
+                            <option> MBA </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label> Trainings </label></td>
+                    <td>
+                        <input type="checkbox" checked><label> Angular</label>
+                        <input type="checkbox"><label> React </label>
+                        <input type="checkbox"><label> Java </label>
+                        <input type="checkbox"><label> Testing </label>
+                    </td>
+                </tr>
+                <td> Gender </td>
+                <td>
+                    <input type="radio" name="Gender"><label> Female </label>
+                    <input type="radio" name="Gender"><label> Male </label>
+                    <input type="radio" name="Gender"><label> Others </label>
+                </td>
+                </tr>
+
+                <tr>
+                    <td><label> Permanent Address</label></td>
+                    <td><textarea rows="6" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td> download Template </td>
+                    <td>
+                        <button>
+                            <a href=https://in.linkedin.com/ target="_blank"> download </a>
+
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="Submit"></td>
+                    <td><input type="Reset"></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </form>
+    <p>
+        <strong> SSO sign in options </strong> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/" target="_blank"> <i class="fa fa-google" aria-hidden="true"></i></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/accounts/login/" target="_blank"> <i class="fa fa-instagram"
+                aria-hidden="true"></i></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-official "
+                aria-hidden="true"></i></a>
+    </p>
+</body>
+
+</html>
