@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CSS Basic </title>
+        <style>
+            /* h4,p{
+                color: rgb(242, 116, 12);
+
+            }*/
+
+            .personal {
+                color: rgb(0, 255, 34);
+           }
+
+           .company {
+            color: aqua;
+           }
+
+           #address {
+            background-color: blueviolet;
+            color: rgb(197, 19, 19);
+           }
+
+           #name {
+            color: bisque;
+            background-color: #34495e;
+           }
+           /* body{
+            background-image: url(images.jpg);
+            background-repeat: no-repeat;
+            background-size: 500px 500px;
+           }*/
+
+           .box1{
+            border: 5px solid cadetblue;
+            width: 150px;
+            height: 150px;
+            /* padding-left: 50px;
+            padding-top: 30px;
+            padding-right: 60px;
+            padding-bottom: 40px; */
+            /* padding: 30px 60px 40px 50px;
+            margin-bottom: 80px; */
+            left: 40px;
+            box-shadow: 8px 3px 4px black;
+           }
+           .box2{
+            border: 5px solid rgb(197, 19, 19);
+            width: 150px;
+            height: 150px;
+            /* margin-left: 40px;
+            margin-top: 20px;
+            margin-top: 150px; */
+           }
+           h3{
+            border: 1px solid cadetblue;
+           }
+           h3::after{
+            content:"hello";
+           }
+            .show{
+                 border: 1px solid cadetblue;
+                margin-top: 30px;
+                 }
+           .show:hover{
+            background: #34495e;
+            color: white;
+           }
+           li{
+            display: inline-block;
+            border: 1px solid cadetblue;
+            margin-right: 20px;
+            
+            width: 180px;
+            height: 30px;
+           }
+           a{
+            display: inline;
+           }
+
+           .drawing{
+            visibility: hidden;
+           }
+        
+        
+        </style>
+    </head>
+    
+    <body>
+
+           <ol class="hobbies">
+            <li>Reading educational book</li>
+            <li>Listning music</li>
+            <li class="drawing">Drawing Mandal Art</li>
+            <li>Learning new things</li>
+           </ol>
+           
+           <br>
+           <a href="home.html" target="My_frame">Home</a>
+           <a href="home.html" target="My_frame">Home</a>
+           <a href="home.html" target="My_frame">Home</a>
+    
+           <!-- <div class="box1">
+            Hello how are you
+           </div>
+           
+           <div class="box2">
+            Good Morning
+           </div>
+
+           <div class="show">
+            Hello
+           </div> -->
+
+           <!-- <marquee direction="left" width="500px" height="300px" behavior="sliding">
+            <h2> Main Heading </h2>
+           </marquee> -->
+
+           <h3> My name is <span id="name">Mohit Sharma</span></h3>
+           <p class="personal"> I am Engineering Graduates</p>
+           <h3 class="company">Currently working TCS</h3>
+
+           <h4 id="address">Address: Akluj</h4>
+        </body>
+
+    
+</html>

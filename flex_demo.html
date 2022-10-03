@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Flex Demo</title>
+        <style>
+           .container{
+            height: 500px;
+            border: 1px solid rgb(114, 67, 67);
+            display: flex;
+            flex-direction: row;
+           align-items: center;
+           justify-content: flex-start;
+          /* justify-content: space-evenly; */
+          /* gap: 80px; */
+           } 
+           .container div{
+            background-color: rgb(216, 193, 163);
+             border: 1px solid rgb(114, 67, 67);
+             /* width: 300px; */
+           }
+           .flex-item-1{
+            flex: 1;
+           }
+           .flex-item-2{
+            flex: 2;
+           }
+           .flex-item-3{
+            flex: 1;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+         <div class="flex-item-1">  
+            <h3> Angular - Web Development</h3>
+            <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+              </div>
+              <div class="flex-item-2">
+                <h3>React - Web Development</h3>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+           </div>
+           <div class="flex-item-3">
+            <h3> fullstack Developer </h3>
+          <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+           </div>
+           </div>
+    </body>
+</html>
